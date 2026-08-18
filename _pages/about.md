@@ -32,190 +32,153 @@ I am also interested in how assessment can connect more directly to intervention
 - **Family processes:** coparenting · parent–child relationships · transition to parenthood · family systems
 - **Technology-mediated assessment:** child–AI/robot interaction · serious games · telehealth
 
-<div class="agenda-section">
-  <p class="agenda-question">How can assessment better inform what support a person needs?</p>
+<section class="rq-section" aria-labelledby="rq-title">
+  <h2 id="rq-title">My broader research questions</h2>
+  <p class="rq-overview">How can assessment better inform what support a person needs—and how can that support be delivered in practice?</p>
 
-  <div class="agenda-map" aria-label="Research agenda connecting development and assessment to individual needs and support">
-    <div class="agenda-sources">
-      <div class="agenda-source">
-        <span class="agenda-dot" aria-hidden="true"></span>
-        <span>Understand development</span>
-      </div>
-      <div class="agenda-source">
-        <span class="agenda-dot" aria-hidden="true"></span>
-        <span>Characterize differences through assessment</span>
-      </div>
+  <div class="rq-grid">
+    <article class="rq-card">
+      <div class="rq-number">01</div>
+      <h3>Personalization</h3>
+      <p class="rq-question">Who needs what?</p>
+      <p class="rq-description">Moving beyond broad diagnostic or developmental labels toward a more precise understanding of individual differences and needs.</p>
+    </article>
+
+    <div class="rq-connector" aria-hidden="true">
+      <span class="rq-line"></span>
+      <span class="rq-arrow">→</span>
     </div>
 
-    <svg class="agenda-merge" viewBox="0 0 100 180" preserveAspectRatio="none" aria-hidden="true">
-      <path d="M0,38 C42,38 46,90 100,90"></path>
-      <path d="M0,142 C42,142 46,90 100,90"></path>
-    </svg>
-
-    <div class="agenda-focus-column">
-      <div class="agenda-focus">Individual<br>needs</div>
-      <div class="agenda-downline" aria-hidden="true"></div>
-      <div class="agenda-step"><span class="agenda-small-dot" aria-hidden="true"></span>Match support</div>
-      <div class="agenda-downline agenda-downline-short" aria-hidden="true"></div>
-      <div class="agenda-step"><span class="agenda-small-dot" aria-hidden="true"></span>Monitor &amp; adapt</div>
-      <div class="agenda-downline agenda-downline-short" aria-hidden="true"></div>
-      <div class="agenda-step agenda-final"><span class="agenda-small-dot" aria-hidden="true"></span>Accessible support</div>
-    </div>
+    <article class="rq-card">
+      <div class="rq-number">02</div>
+      <h3>Accessibility &amp; implementation</h3>
+      <p class="rq-question">How can we actually deliver it?</p>
+      <p class="rq-description">Moving from identifying what support may fit a person to making that support feasible, usable, and accessible in real-world settings.</p>
+    </article>
   </div>
-</div>
+</section>
 
 <style>
-.agenda-section {
-  margin: 3.4rem 0 2.6rem;
-  padding-top: 2rem;
+.rq-section {
+  margin: 3.5rem 0 2.8rem;
+  padding-top: 2.2rem;
   border-top: 1px solid var(--global-divider-color);
 }
 
-.agenda-question {
-  margin: 0 0 2.3rem;
-  text-align: center;
-  font-size: 1.16rem;
-  font-weight: 500;
-  color: var(--global-text-color);
+.rq-section h2 {
+  margin-bottom: 0.6rem;
 }
 
-.agenda-map {
+.rq-overview {
+  max-width: 760px;
+  margin: 0 0 2.2rem;
+  color: var(--global-text-color-light);
+  font-size: 1.04rem;
+  line-height: 1.55;
+}
+
+.rq-grid {
   display: grid;
-  grid-template-columns: minmax(250px, 1.15fr) 100px minmax(220px, 0.9fr);
-  align-items: start;
-  max-width: 820px;
-  margin: 0 auto;
+  grid-template-columns: minmax(0, 1fr) 72px minmax(0, 1fr);
+  align-items: stretch;
+  gap: 0;
 }
 
-.agenda-sources {
-  min-height: 180px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 1.1rem 0;
-}
-
-.agenda-source {
-  display: flex;
-  align-items: center;
-  gap: 0.72rem;
-  min-height: 48px;
-  color: var(--global-text-color);
-  font-size: 1rem;
-  line-height: 1.35;
-}
-
-.agenda-dot,
-.agenda-small-dot {
-  flex: 0 0 auto;
-  width: 9px;
-  height: 9px;
-  border-radius: 50%;
-  background: var(--global-theme-color);
-}
-
-.agenda-merge {
-  width: 100%;
-  height: 180px;
-  overflow: visible;
-}
-
-.agenda-merge path {
-  fill: none;
-  stroke: var(--global-divider-color);
-  stroke-width: 1.8;
-  vector-effect: non-scaling-stroke;
-  stroke-linecap: round;
-}
-
-.agenda-focus-column {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.agenda-focus {
-  width: 132px;
-  height: 132px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  border: 2px solid var(--global-theme-color);
-  border-radius: 50%;
-  color: var(--global-text-color);
-  font-size: 1.08rem;
-  font-weight: 500;
-  line-height: 1.25;
+.rq-card {
+  min-height: 230px;
+  padding: 1.45rem 1.5rem 1.4rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 1rem;
   background: var(--global-bg-color);
 }
 
-.agenda-downline {
-  width: 1px;
-  height: 34px;
-  background: var(--global-divider-color);
-}
-
-.agenda-downline-short {
-  height: 24px;
-}
-
-.agenda-step {
-  display: flex;
-  align-items: center;
-  gap: 0.55rem;
-  min-width: 150px;
-  justify-content: center;
-  color: var(--global-text-color);
-  font-size: 0.98rem;
-}
-
-.agenda-small-dot {
-  width: 7px;
-  height: 7px;
-}
-
-.agenda-final {
+.rq-number {
+  margin-bottom: 1.05rem;
   color: var(--global-theme-color);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+}
+
+.rq-card h3 {
+  margin: 0 0 0.55rem;
+  color: var(--global-text-color);
+  font-size: 1.28rem;
+  font-weight: 600;
+}
+
+.rq-question {
+  margin: 0 0 1rem;
+  color: var(--global-theme-color);
+  font-size: 1.03rem;
   font-weight: 500;
 }
 
+.rq-description {
+  margin: 0;
+  color: var(--global-text-color);
+  font-size: 0.98rem;
+  line-height: 1.55;
+}
+
+.rq-connector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.rq-line {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  height: 1px;
+  background: var(--global-divider-color);
+}
+
+.rq-arrow {
+  position: relative;
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: var(--global-bg-color);
+  color: var(--global-theme-color);
+  font-size: 1.15rem;
+}
+
 @media (max-width: 760px) {
-  .agenda-section {
-    margin-top: 2.7rem;
+  .rq-section {
+    margin-top: 2.8rem;
   }
 
-  .agenda-question {
-    text-align: left;
-    font-size: 1.08rem;
-    margin-bottom: 1.8rem;
-  }
-
-  .agenda-map {
+  .rq-grid {
     grid-template-columns: 1fr;
-    gap: 1rem;
   }
 
-  .agenda-sources {
+  .rq-card {
     min-height: 0;
-    gap: 1rem;
-    padding: 0;
   }
 
-  .agenda-merge {
-    display: none;
+  .rq-connector {
+    min-height: 58px;
   }
 
-  .agenda-focus-column::before {
-    content: "↓";
-    color: var(--global-text-color-light);
-    margin-bottom: 0.9rem;
+  .rq-line {
+    left: 50%;
+    right: auto;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    height: auto;
   }
 
-  .agenda-focus {
-    width: 118px;
-    height: 118px;
-    font-size: 1rem;
+  .rq-arrow {
+    transform: rotate(90deg);
   }
 }
 </style>
