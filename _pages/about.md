@@ -6,7 +6,7 @@ subtitle: Developmental science · Autism · Human–computer interaction
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image:
   image_circular: false
   more_info: >
     <p>Shenzhen, China</p>
