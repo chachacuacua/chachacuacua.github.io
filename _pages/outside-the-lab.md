@@ -1,6 +1,6 @@
 ---
 layout: page
-title: outside the lab
+title: Outside the Lab
 permalink: /outside-the-lab/
 description: A small timeline of the places, experiences, and companions that have shaped me outside research.
 nav: true
