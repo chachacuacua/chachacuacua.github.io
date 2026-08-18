@@ -32,12 +32,6 @@ nav_order: 1
   </div>
 
   <p class="project-methods"><strong>Methods:</strong> eye-tracking · parent–child interaction · longitudinal follow-up · observational coding · R / RStudio</p>
-
-  <div class="project-visuals project-visuals-three" aria-label="Image placeholders for the Parent–Child Interaction and Development project">
-    <div class="project-visual-placeholder"><span>Eye-tracking paradigm</span></div>
-    <div class="project-visual-placeholder"><span>Interaction observation lab</span></div>
-    <div class="project-visual-placeholder"><span>Parent-facing result report</span></div>
-  </div>
 </section>
 
 <section class="project-block">
@@ -62,11 +56,6 @@ nav_order: 1
   </div>
 
   <p class="project-methods"><strong>Methods:</strong> field research · longitudinal tracking · eye-tracking · parent–child interaction · parent report</p>
-
-  <div class="project-visuals project-visuals-two" aria-label="Image placeholders for the Growing with Nature project">
-    <div class="project-visual-placeholder project-visual-wide"><span>Experimental procedure &amp; study conditions</span></div>
-    <div class="project-visual-placeholder"><span>Nature-based activity</span></div>
-  </div>
 </section>
 
 <section class="project-block">
@@ -93,26 +82,20 @@ nav_order: 1
   </div>
 
   <p class="project-methods"><strong>Tools:</strong> Godot Engine 4 · serious games · interaction design · formative evaluation · family-centered design</p>
-
-  <div class="project-visuals project-visuals-three" aria-label="Image placeholders for The Gift of the Tenth Month">
-    <div class="project-visual-placeholder"><span>Game world / dual routes</span></div>
-    <div class="project-visual-placeholder"><span>Hospital questline</span></div>
-    <div class="project-visual-placeholder"><span>Boss challenge</span></div>
-  </div>
 </section>
 
 <style>
 .projects-intro {
   max-width: 760px;
-  margin: 0.35rem 0 2.6rem;
+  margin: 0.35rem 0 2.2rem;
   color: var(--global-text-color-light);
   font-size: 1.04rem;
   line-height: 1.6;
 }
 
 .project-block {
-  margin: 0 0 4.4rem;
-  padding-top: 2rem;
+  margin: 0 0 3.4rem;
+  padding-top: 1.8rem;
   border-top: 1px solid var(--global-divider-color);
 }
 
@@ -121,7 +104,7 @@ nav_order: 1
   grid-template-columns: 52px minmax(0, 1fr);
   gap: 0.8rem;
   align-items: start;
-  margin-bottom: 1.8rem;
+  margin-bottom: 1.45rem;
 }
 
 .project-index {
@@ -150,23 +133,25 @@ nav_order: 1
 .project-text-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 2.4rem;
+  gap: 2.2rem;
 }
 
 .project-text-grid h3 {
-  margin: 0 0 0.75rem;
+  margin: 0 0 0.65rem;
   color: var(--global-text-color);
   font-size: 1rem;
   font-weight: 600;
 }
 
 .project-text-grid p {
-  margin-bottom: 0.8rem;
-  line-height: 1.65;
+  margin-bottom: 0.72rem;
+  line-height: 1.63;
 }
 
 .project-methods {
-  margin: 1.25rem 0 1.5rem;
+  margin: 1.05rem 0 0;
+  padding-top: 0.85rem;
+  border-top: 1px solid color-mix(in srgb, var(--global-divider-color) 65%, transparent);
   color: var(--global-text-color-light);
   font-size: 0.93rem;
   line-height: 1.55;
@@ -176,41 +161,9 @@ nav_order: 1
   color: var(--global-text-color);
 }
 
-.project-visuals {
-  display: grid;
-  gap: 0.85rem;
-}
-
-.project-visuals-three {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
-.project-visuals-two {
-  grid-template-columns: 1.65fr 1fr;
-}
-
-.project-visual-placeholder {
-  min-height: 180px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 1rem;
-  border: 1px dashed var(--global-divider-color);
-  border-radius: 0.9rem;
-  background: color-mix(in srgb, var(--global-text-color) 2.5%, var(--global-bg-color));
-  color: var(--global-text-color-light);
-  text-align: center;
-  font-size: 0.86rem;
-  letter-spacing: 0.02em;
-}
-
-.project-visual-wide {
-  min-height: 210px;
-}
-
 @media (max-width: 760px) {
   .project-block {
-    margin-bottom: 3.5rem;
+    margin-bottom: 3rem;
   }
 
   .project-heading {
@@ -221,16 +174,9 @@ nav_order: 1
     font-size: 1.35rem;
   }
 
-  .project-text-grid,
-  .project-visuals-three,
-  .project-visuals-two {
+  .project-text-grid {
     grid-template-columns: 1fr;
-    gap: 1.2rem;
-  }
-
-  .project-visual-placeholder,
-  .project-visual-wide {
-    min-height: 150px;
+    gap: 1.15rem;
   }
 }
 </style>
