@@ -27,23 +27,25 @@ Across my projects, I am interested in how we can move from observing developmen
 
 I am also interested in how assessment can connect more directly to intervention. In particular, I want to explore how interactive technologies—including serious games, child–AI interaction, child–robot interaction, digital health, and telehealth—can help translate developmental evidence into support that is more individualized, engaging, and accessible.
 
-<div style="margin: 2.2rem 0 3.2rem 0; display: flex; flex-wrap: wrap; gap: 0.6rem; align-items: center; justify-content: flex-start;">
-  <span style="padding: 0.55rem 0.8rem; border: 1px solid var(--global-divider-color); border-radius: 0.65rem;">Understand development</span>
-  <span aria-hidden="true">→</span>
-  <span style="padding: 0.55rem 0.8rem; border: 1px solid var(--global-divider-color); border-radius: 0.65rem;">Characterize individual needs</span>
-  <span aria-hidden="true">→</span>
-  <span style="padding: 0.55rem 0.8rem; border: 1px solid var(--global-divider-color); border-radius: 0.65rem;">Match support</span>
-  <span aria-hidden="true">→</span>
-  <span style="padding: 0.55rem 0.8rem; border: 1px solid var(--global-divider-color); border-radius: 0.65rem;">Monitor response</span>
-  <span aria-hidden="true">→</span>
-  <span style="padding: 0.55rem 0.8rem; border: 1px solid var(--global-divider-color); border-radius: 0.65rem;">Adapt support</span>
-  <span aria-hidden="true">→</span>
-  <span style="padding: 0.55rem 0.8rem; border: 1px solid var(--global-divider-color); border-radius: 0.65rem;">Make it accessible</span>
+<div style="margin: 2.4rem 0 3.6rem 0;">
+  <div style="display:grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap:0.8rem; align-items:stretch;">
+    <div style="padding:0.9rem 0.75rem; border:1px solid var(--global-divider-color); border-radius:0.8rem; text-align:center;">Understand<br>development</div>
+    <div style="padding:0.9rem 0.75rem; border:1px solid var(--global-divider-color); border-radius:0.8rem; text-align:center;">Identify &<br>characterize differences</div>
+    <div style="padding:0.9rem 0.75rem; border:1px solid var(--global-divider-color); border-radius:0.8rem; text-align:center;">Understand<br>individual needs</div>
+    <div style="padding:0.9rem 0.75rem; border:1px solid var(--global-divider-color); border-radius:0.8rem; text-align:center;">Match<br>support</div>
+  </div>
+  <div style="text-align:center; font-size:1.25rem; line-height:1; margin:0.45rem 0;" aria-hidden="true">↓</div>
+  <div style="display:grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap:0.8rem; align-items:stretch;">
+    <div style="padding:0.9rem 0.75rem; border:1px solid var(--global-divider-color); border-radius:0.8rem; text-align:center;">Intervene</div>
+    <div style="padding:0.9rem 0.75rem; border:1px solid var(--global-divider-color); border-radius:0.8rem; text-align:center;">Monitor<br>response</div>
+    <div style="padding:0.9rem 0.75rem; border:1px solid var(--global-divider-color); border-radius:0.8rem; text-align:center;">Adapt<br>support</div>
+    <div style="padding:0.9rem 0.75rem; border:1px solid var(--global-divider-color); border-radius:0.8rem; text-align:center;">Make support<br>accessible</div>
+  </div>
 </div>
 
-<h2 style="margin-top: 3rem;">Research interests</h2>
+<h2 style="margin-top: 3.2rem;">Research interests</h2>
 
-- Early social development: social attention · social communication · parent–child interaction · social motivation
-- Autism research: early identification and intervention · developmental assessment · individualized and family-centered support
-- Family processes: coparenting · parent–child relationships · transition to parenthood · family systems
-- Technology-mediated assessment & intervention: child–AI interaction · child–robot interaction · serious games · digital health · telehealth
+- **Early social development:** social attention · social communication · parent–child interaction · social motivation
+- **Autism research:** early identification and intervention · developmental assessment · individualized and family-centered support
+- **Family processes:** coparenting · parent–child relationships · transition to parenthood · family systems
+- **Technology-mediated assessment & intervention:** child–AI interaction · child–robot interaction · serious games · digital health · telehealth
