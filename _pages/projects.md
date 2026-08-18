@@ -27,7 +27,7 @@ nav_order: 1
     <div>
       <h3>My role</h3>
       <p>I manage day-to-day research operations with approximately 100 families of infants and toddlers aged 5–24 months, including family follow-up, scheduling and coordination of ~230 experimental visits, parent–child interaction sessions, Tobii Pro eye-tracking data collection and analysis, and RA scheduling.</p>
-      <p>I also develop and refine study protocols and IRB materials, contribute to research outputs, and train and coordinate 15+ research assistants. I completed SCS training and qualified as a reliable coder for recorded parent–child interactions.</p>
+      <p>I completed SCS training and qualified as a reliable coder for recorded parent–child interactions.</p>
     </div>
   </div>
 
@@ -51,7 +51,7 @@ nav_order: 1
 
     <div>
       <h3>My role</h3>
-      <p>I design and lead nature-based outdoor activities for approximately 50 participating families and coordinate team assignments and fieldwork procedures. I also support participant coordination and child-facing research procedures across the project’s field and laboratory components.</p>
+      <p>I design and lead nature-based outdoor activities for approximately 50 participating families and coordinate team assignments and fieldwork procedures.</p>
     </div>
   </div>
 
