@@ -11,22 +11,40 @@ nav_order: 1
 
 **Infant and toddler social-attention research · Tobii Pro eye-tracking**
 
-I study how infants and toddlers allocate visual attention to social interactions across different physical and interaction contexts. This work uses Tobii Pro eye-tracking to examine how attention to people, objects, and social exchanges changes across scenes and developmental stages.
+I contribute to longitudinal and experimental studies examining how infants and toddlers attend to social interactions across different contexts. My work includes participant coordination, experimental visits, eye-tracking data collection and analysis, and mixed-effects modeling.
+
+**Methods:** eye-tracking · developmental research · behavioral measures · R
+
+---
 
 ## Parent–child interaction
 
-**Observed interaction · Developmental coding · Family processes**
+**Early social development · observational research**
 
-I work with parent–child interaction data to examine variation in early social communication and family interaction. My current work includes observational coding, protocol development, and coordination of longitudinal research with infants, toddlers, and their caregivers.
+I work on studies of parent–child interaction from infancy through the preschool years. This includes coordinating family follow-up and interaction sessions and completing SCS observational-coding training for recorded preschool parent–child interactions.
+
+**Methods:** behavioral observation · longitudinal follow-up · video coding
+
+---
 
 ## Nature and early attention
 
-**Outdoor developmental research · Children aged 2–5 years**
+**Young children · natural environments · visual attention**
 
-I help design and lead nature-based activities for young children and families, alongside research examining attention and audiovisual processing in natural environments. This work is part of a broader interest in how developmental processes unfold across real-world contexts rather than only in laboratory settings.
+I help coordinate research examining children's attention and development in nature-related contexts, including nature-based activities with families of children aged approximately 2–5 years and eye-tracking paradigms focused on environmental attention.
+
+**Methods:** field research · eye-tracking · child development
+
+---
 
 ## The Gift of the Tenth Month
 
-**Partner-inclusive prenatal education serious game · Godot Engine 4**
+**Serious game · prenatal education · family-centered design**
 
-I designed and developed a serious-game prototype that translates prenatal health and family-support content into interactive scenarios. The project explores how role-based gameplay and situated interaction can make prenatal learning more engaging and relevant to both pregnant people and their partners.
+I lead the design and development of *The Gift of the Tenth Month*, a browser-playable prenatal education RPG built in Godot Engine 4. The project translates pregnancy-related health information and partner support into situated home–town–hospital scenarios, NPC dialogue, clinical questlines, and reflective gameplay.
+
+The project was published as a Work-in-Progress paper at **CHI PLAY 2026**. The current prototype uses a 2D pixel-art style and includes a Week-16 Down syndrome screening pathway as one representative chapter in a broader pregnancy journey.
+
+[View the publication](https://doi.org/10.1145/3800965.3834320)
+
+**Tools:** Godot Engine 4 · interaction design · serious games · formative evaluation
