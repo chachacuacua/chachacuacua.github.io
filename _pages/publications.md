@@ -9,105 +9,74 @@ nav_order: 2
 
 <div class="pub-page">
   <section class="pub-section">
-    <div class="pub-section-label">Publication</div>
+    <h2 class="pub-section-title">Peer-Reviewed Publications</h2>
 
-    <article class="pub-item">
-      <div class="pub-year">2026</div>
-      <div class="pub-content">
-        <h2>The Gift of the Tenth Month: Early Design of a Partner-Inclusive Prenatal Education Serious Game</h2>
-        <p class="pub-authors"><strong>Yihan Zhao</strong>, Liying Zhang, Ke Li, Sitong Ke, Songqi Lu, and Guangyu Zeng</p>
-        <p class="pub-venue"><em>CHI PLAY 2026 Companion</em></p>
-        <p class="pub-status">Accepted. Proceedings link will be posted when available.</p>
-      </div>
-    </article>
+    <div class="apa-entry">
+      <p><strong>Zhao, Y.</strong>, Zhang, L., Li, K., Ke, S., Lu, S., &amp; Zeng, G. (2026). The gift of the tenth month: Early design of a partner-inclusive prenatal education serious game. In <em>Companion Proceedings of the Annual Symposium on Computer-Human Interaction in Play (CHI PLAY Companion ’26)</em>.</p>
+      <p class="pub-note">Accepted; proceedings link will be posted when available.</p>
+    </div>
   </section>
 
   <section class="pub-section">
-    <div class="pub-section-label">Conference presentation</div>
+    <h2 class="pub-section-title">Conference Presentations</h2>
 
-    <article class="pub-item">
-      <div class="pub-year">2026</div>
-      <div class="pub-content">
-        <h2>Computational Modeling of Facial Trustworthiness Perception on Action Units Using Machine Learning</h2>
-        <p class="pub-authors">Ke Li, Y. Chen, <strong>Yihan Zhao</strong>, and Guangyu Zeng</p>
-        <p class="pub-venue"><em>14th Conference for Chinese Psychologists</em></p>
-        <p class="pub-status">Oral presentation.</p>
-      </div>
-    </article>
+    <div class="apa-entry">
+      <p>Li, K., Chen, Y., <strong>Zhao, Y.</strong>, &amp; Zeng, G. (2026). Computational modeling of facial trustworthiness perception on action units using machine learning [Oral presentation]. <em>14th Conference for Chinese Psychologists</em>.</p>
+    </div>
   </section>
 </div>
 
 <style>
 .pub-page {
-  margin-top: 2.2rem;
+  margin-top: 2.4rem;
 }
 
 .pub-section {
-  margin-bottom: 3.2rem;
+  margin-bottom: 3.4rem;
 }
 
-.pub-section-label {
-  margin-bottom: 1.25rem;
-  padding-bottom: 0.55rem;
+.pub-section-title {
+  margin: 0 0 1.45rem;
+  padding-bottom: 0.65rem;
   border-bottom: 1px solid var(--global-divider-color);
-  color: var(--global-theme-color);
-  font-size: 0.82rem;
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
-.pub-item {
-  display: grid;
-  grid-template-columns: 72px minmax(0, 1fr);
-  gap: 1.35rem;
-  align-items: start;
-}
-
-.pub-year {
-  padding-top: 0.12rem;
-  color: var(--global-text-color-light);
-  font-size: 1rem;
-  font-weight: 500;
-}
-
-.pub-content h2 {
-  margin: 0 0 0.55rem;
   color: var(--global-text-color);
-  font-size: 1.15rem;
+  font-size: 1.25rem;
   font-weight: 600;
-  line-height: 1.4;
 }
 
-.pub-authors,
-.pub-venue,
-.pub-status {
-  margin: 0 0 0.28rem;
+.apa-entry {
+  max-width: 920px;
+  margin-bottom: 1.5rem;
+}
+
+.apa-entry > p:first-child {
+  margin: 0;
+  padding-left: 2rem;
+  text-indent: -2rem;
+  color: var(--global-text-color);
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+.pub-note {
+  margin: 0.55rem 0 0 2rem;
+  color: var(--global-text-color-light);
+  font-size: 0.92rem;
   line-height: 1.5;
 }
 
-.pub-authors {
-  color: var(--global-text-color);
-}
-
-.pub-venue,
-.pub-status {
-  color: var(--global-text-color-light);
-}
-
-.pub-status {
-  margin-top: 0.45rem;
-  font-size: 0.94rem;
-}
-
 @media (max-width: 620px) {
-  .pub-item {
-    grid-template-columns: 1fr;
-    gap: 0.35rem;
+  .pub-section-title {
+    font-size: 1.15rem;
   }
 
-  .pub-year {
-    font-size: 0.9rem;
+  .apa-entry > p:first-child {
+    padding-left: 1.5rem;
+    text-indent: -1.5rem;
+  }
+
+  .pub-note {
+    margin-left: 1.5rem;
   }
 }
 </style>
