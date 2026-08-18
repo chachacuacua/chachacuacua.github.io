@@ -34,14 +34,14 @@ I am also interested in how assessment can connect more directly to intervention
 
 <section class="rq-section" aria-labelledby="rq-title">
   <h2 id="rq-title">My broader research questions</h2>
-  <p class="rq-overview">How can assessment better inform what support a person needs—and how can that support be delivered in practice?</p>
+  <p class="rq-overview">How can we better understand what children and their families need—and make that support feasible in everyday life?</p>
 
   <div class="rq-grid">
     <article class="rq-card">
       <div class="rq-number">01</div>
       <h3>Personalization</h3>
       <p class="rq-question">Who needs what?</p>
-      <p class="rq-description">Moving beyond broad diagnostic or developmental labels toward a more precise understanding of individual differences and needs.</p>
+      <p class="rq-description">Moving beyond broad developmental or diagnostic labels toward a more precise understanding of differences in children’s and families’ needs.</p>
     </article>
 
     <div class="rq-connector" aria-hidden="true">
@@ -53,7 +53,7 @@ I am also interested in how assessment can connect more directly to intervention
       <div class="rq-number">02</div>
       <h3>Accessibility &amp; implementation</h3>
       <p class="rq-question">How can we actually deliver it?</p>
-      <p class="rq-description">Moving from identifying what support may fit a person to making that support feasible, usable, and accessible in real-world settings.</p>
+      <p class="rq-description">Making individualized, family-centered support feasible, usable, and accessible in everyday settings.</p>
     </article>
   </div>
 </section>
