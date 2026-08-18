@@ -2,64 +2,49 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Selected research and design projects.
 nav: true
-nav_order: 3
-display_categories: [work, fun]
-horizontal: false
+nav_order: 2
 ---
 
-<!-- pages/projects.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
+## Developmental social attention
 
-{% else %}
+**Infant and toddler social-attention research · Tobii Pro eye-tracking**
 
-<!-- Display projects without categories -->
+I contribute to longitudinal and experimental studies examining how infants and toddlers attend to social interactions across different contexts. My work includes participant coordination, experimental visits, eye-tracking data collection and analysis, and mixed-effects modeling.
 
-{% assign sorted_projects = site.projects | sort: "importance" %}
+**Methods:** eye-tracking · developmental research · behavioral measures · R
 
-  <!-- Generate cards for each project -->
+---
 
-{% if page.horizontal %}
+## Parent–child interaction
 
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
-</div>
+**Early social development · observational research**
+
+I work on studies of parent–child interaction from infancy through the preschool years. This includes coordinating family follow-up and interaction sessions and completing SCS observational-coding training for recorded preschool parent–child interactions.
+
+**Methods:** behavioral observation · longitudinal follow-up · video coding
+
+---
+
+## Nature and early attention
+
+**Young children · natural environments · visual attention**
+
+I help coordinate research examining children's attention and development in nature-related contexts, including nature-based activities with families of children aged approximately 2–5 years and eye-tracking paradigms focused on environmental attention.
+
+**Methods:** field research · eye-tracking · child development
+
+---
+
+## The Gift of the Tenth Month
+
+**Serious game · prenatal education · family-centered design**
+
+I lead the design and development of *The Gift of the Tenth Month*, a browser-playable prenatal education RPG built in Godot Engine 4. The project translates pregnancy-related health information and partner support into situated home–town–hospital scenarios, NPC dialogue, clinical questlines, and reflective gameplay.
+
+The project was published as a Work-in-Progress paper at **CHI PLAY 2026**. The current prototype uses a 2D pixel-art style and includes a Week-16 Down syndrome screening pathway as one representative chapter in a broader pregnancy journey.
+
+[View the publication](https://doi.org/10.1145/3800965.3834320)
+
+**Tools:** Godot Engine 4 · interaction design · serious games · formative evaluation
