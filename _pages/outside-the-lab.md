@@ -7,8 +7,6 @@ nav: true
 nav_order: 5
 ---
 
-<p class="life-intro">A small timeline of the places, experiences, and companions that have shaped me outside research.</p>
-
 <div class="life-timeline" id="lifeTimeline">
   <svg class="life-path" id="lifePathSvg" aria-hidden="true">
     <path id="lifePath" fill="none"></path>
