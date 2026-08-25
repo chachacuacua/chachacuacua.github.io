@@ -19,17 +19,26 @@ description:
   <div class="cv-kicker">Curriculum Vitae</div>
   <div class="cv-updated">Updated August 2026</div>
 
-  <a class="cv-download-button" href="{{ '/assets/pdf/Yihan_Zhao_CV202608.pdf' | relative_url }}" download>
-    <span>Download CV</span>
-    <svg viewBox="0 0 24 24" aria-hidden="true">
-      <path d="M12 3v11m0 0 4-4m-4 4-4-4M5 19h14"></path>
-    </svg>
-  </a>
+  <div class="cv-download-group">
+    <a class="cv-download-button" href="{{ '/assets/pdf/Yihan_Zhao_PhD_CV_20270825.pdf' | relative_url }}" download="Yihan_Zhao_CV.pdf">
+      <span>Download CV</span>
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M12 3v11m0 0 4-4m-4 4-4-4M5 19h14"></path>
+      </svg>
+    </a>
+
+    <a class="cv-download-button cv-download-secondary" href="{{ '/assets/pdf/%E6%88%90%E7%BB%A9%E5%8D%95_merged.pdf' | relative_url }}" download="Yihan_Zhao_Transcript.pdf">
+      <span>Download Transcript</span>
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M12 3v11m0 0 4-4m-4 4-4-4M5 19h14"></path>
+      </svg>
+    </a>
+  </div>
 </div>
 
 <style>
 .cv-landing {
-  max-width: 520px;
+  max-width: 560px;
   margin: 2.4rem auto 4.5rem;
   padding: 3rem 2.4rem 3.1rem;
   text-align: center;
@@ -73,19 +82,32 @@ description:
   color: var(--global-text-color-light);
 }
 
+.cv-download-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.85rem;
+}
+
 .cv-download-button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 0.55rem;
-  padding: 0.78rem 1.2rem;
+  padding: 0.78rem 1.15rem;
   border: 1px solid var(--global-theme-color);
   border-radius: 0.65rem;
   background: var(--global-theme-color);
   color: var(--global-bg-color);
   font-weight: 600;
   text-decoration: none;
+  white-space: nowrap;
   transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+.cv-download-secondary {
+  background: transparent;
+  color: var(--global-theme-color);
 }
 
 .cv-download-button svg {
@@ -105,10 +127,24 @@ description:
   transform: translateY(-1px);
 }
 
+.cv-download-secondary:hover {
+  background: var(--global-theme-color);
+  color: var(--global-bg-color);
+}
+
 @media (max-width: 600px) {
   .cv-landing {
     margin-top: 1.6rem;
     padding: 2.4rem 1.5rem 2.5rem;
+  }
+
+  .cv-download-group {
+    flex-direction: column;
+  }
+
+  .cv-download-button {
+    width: 100%;
+    max-width: 250px;
   }
 }
 </style>
